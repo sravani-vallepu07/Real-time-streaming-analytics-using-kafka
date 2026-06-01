@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_absolute_error, root_mean_squared_error
+from sklearn.metrics import mean_absolute_error, mean_squared_error
 from database import get_connection
 import logging
 
@@ -103,13 +103,8 @@ def train_and_predict(coin_name='bitcoin'):
         y_pred = model.predict(X_test)
         
         # Calculate performance metrics
-        # sklearn's root_mean_squared_error is standard in newer versions, fallback to np.sqrt(mean_squared_error) if needed
         mae = float(mean_absolute_error(y_test, y_pred))
-        try:
-            rmse = float(root_mean_squared_error(y_test, y_pred))
-        except NameError:
-            from sklearn.metrics import mean_squared_error
-            rmse = float(np.sqrt(mean_squared_error(y_test, y_pred)))
+        rmse = float(np.sqrt(mean_squared_error(y_test, y_pred)))
             
         # Fit on all available historical data to get the absolute best next-price prediction
         final_model = RandomForestRegressor(n_estimators=50, random_state=42)
