@@ -30,6 +30,7 @@ services:
     environment:
       - KAFKA_BROKER=kafka:9092
       - DB_FILE=/app/data/crypto_data.db
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
     volumes:
       - ./data:/app/data
     depends_on:
@@ -43,6 +44,7 @@ services:
       - "8501:8501"
     environment:
       - DB_FILE=/app/data/crypto_data.db
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
     volumes:
       - ./data:/app/data
     depends_on:
