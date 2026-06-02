@@ -163,8 +163,11 @@ docker-compose down
 ```
 
 ---
+<img width="1366" height="768" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/ec76ef5d-acd6-496a-8708-10081f5080f2" />
+<img width="1366" height="768" alt="Screenshot (43)" src="https://github.com/user-attachments/assets/bc1ebfd3-06c9-4847-9a23-517f998de3ef" />
+<img width="1366" height="768" alt="Screenshot (44)" src="https://github.com/user-attachments/assets/81fa0d38-7a0b-4cc1-82da-b94314e9df19" />
 
-## 💼 Resume Descriptions
+---
 
 These tailored paragraphs will significantly upgrade your CV:
 
