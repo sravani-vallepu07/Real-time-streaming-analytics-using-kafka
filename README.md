@@ -6,12 +6,6 @@ An end-to-end, production-ready real-time streaming analytics pipeline that inge
 
 This architecture is custom-built to showcase professional **Data Science, Data Engineering, and GenAI** capabilities in interviews.
 
----
-
-## 🌐 Live Demo
-👉 **[Click here to view the live dashboard](https://github.com/sravani-vallepu07/Real-time-streaming-analytics-using-kafka)** *(To run full Kafka streaming locally, follow the setup instructions below)*
-
----
 
 ## 🏗 Architecture Diagram
 ```mermaid
