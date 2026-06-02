@@ -169,7 +169,6 @@ docker-compose down
 
 ---
 
-These tailored paragraphs will significantly upgrade your CV:
 
 ### For Data Science / ML Roles:
 > **Machine Learning & Streaming Analytics Platform**
